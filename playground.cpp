@@ -13,6 +13,10 @@ using namespace std;
 int main()
 {
     vector<int> v = {1,2,3,4};
-    cout << *(v.end()-1)<< endl;
-   return 0;
+    //cout << *(v.end()-1)<< endl;
+    bool used[9];
+    cout << used[0] << endl;
+    cout << used[1] << endl;
+    
+    return 0;
 }
