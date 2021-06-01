@@ -18,8 +18,11 @@ int main()
     // cout << used[1] << endl;
     const size_t s = 1<<6;
     cout << s << endl;
+    int inc = 1;
+    int a = inc++;
+    cout << a << endl;
+    cout << inc << endl;
 
-
-    
+    cout << sizeof(int) * 8 << endl;
     return 0;
 }
