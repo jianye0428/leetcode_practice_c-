@@ -9,6 +9,13 @@
 #include<unordered_map>
 using namespace std;
 
+
+struct ListNode{
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(nullptr){}
+};
+
 int main()
 {
     // vector<int> v = {1,2,3,4};
@@ -24,5 +31,6 @@ int main()
     cout << inc << endl;
 
     cout << sizeof(int) * 8 << endl;
+
     return 0;
 }
