@@ -32,5 +32,11 @@ int main()
 
     cout << sizeof(int) * 8 << endl;
 
+
+    vector<string> strs = {"jian","ye"};
+    auto begin = strs.begin();
+    cout << begin[0];
+    auto cbegin = strs.cbegin();
+    cout << cbegin[0];
     return 0;
 }
